@@ -24,11 +24,9 @@ class KioskCalc {
         this.quantity = quantity
         this.fruitPriceList = {"orange": 30, "mango": 15, "avocado": 40 }; 
         this.getTotalCost = function () {
-            return ` ${quantity} ${fruit} for KES ${quantity * this.price}`
+            return ` ${quantity} ${fruit} for KES ${quantity * this.fruitPriceList[fruit]}`
         }
     }
 }
-KioskCalc.prototype.price = 30;
-
-var kiosk = new KioskCalc('mango', 2);
+var kiosk = new KioskCalc('mango ', 2);
 console.log(kiosk.getTotalCost());
