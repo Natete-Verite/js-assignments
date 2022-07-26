@@ -1,5 +1,17 @@
-let backgroundColor = document.getElementsByTagName("body")[0].style.backgroundColor = "silver";
-console.log(backgroundColor);
+let background = document.querySelector("body")
+background.style.backgroundImage = "url('lesfruitsetleslegumes.jpg')";
+background.style.backgroundRepeat = "no-repeat";
+background.style.backgroundSize = "100%";
+
+let textBackground = document.getElementById("content")
+textBackground.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+textBackground.style.textAlign = "left";
+textBackground.style.padding = "10px";
+textBackground.style.marginTop = "8%";
+textBackground.style.marginLeft = "34%";
+textBackground.style.width = "30%";
+textBackground.style.border = "5px solid silver";
+console.log(textBackground);
 
 let titleColor = document.getElementsByTagName("h1")[0].style.color = "green";
 console.log(titleColor);
