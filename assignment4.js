@@ -8,7 +8,7 @@ textBackground.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
 textBackground.style.textAlign = "left";
 textBackground.style.padding = "10px";
 textBackground.style.marginTop = "8%";
-textBackground.style.marginLeft = "34%";
+textBackground.style.marginLeft = "33%";
 textBackground.style.width = "30%";
 textBackground.style.border = "5px solid silver";
 console.log(textBackground);
