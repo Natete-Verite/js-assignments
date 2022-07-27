@@ -11,13 +11,16 @@ textBackground.style.marginTop = "8%";
 textBackground.style.marginLeft = "33%";
 textBackground.style.width = "30%";
 textBackground.style.border = "5px solid silver";
+textBackground.style.boxShadow = "5px 5px 5px 5px rgb(232,197,45)";
 console.log(textBackground);
 
 let titleColor = document.getElementsByTagName("h1")[0].style.color = "green";
 console.log(titleColor);
-let subTitleColor = document.getElementsByTagName("p")[0].style.color = "blue";
+let subTitleColor = document.getElementsByTagName("p")[0].style.color = "Green";
 console.log(subTitleColor);
-let subTitleFont = document.getElementsByTagName("p")[0].style.fontStyle = "italic";
+let subTitleFontStyle = document.getElementsByTagName("p")[0].style.fontStyle = "italic";
+console.log(subTitleFontStyle);
+let subTitleFont = document.getElementsByTagName("p")[0].style.fontSize = "20px";
 console.log(subTitleFont);
 
 let titleCase = document.querySelectorAll("h3").forEach(item=>
