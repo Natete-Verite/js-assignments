@@ -28,6 +28,7 @@ let fruit = document.createElement("li")
 fruit.appendChild(document.createTextNode("Passion fruit"))
 let newFruit = document.getElementById("fruList").appendChild(fruit)
 console.log(newFruit.children);
+
 let fruitOne = document.createElement("li")
 fruitOne.appendChild(document.createTextNode("Lemon"))
 let newFruitOne = document.getElementById("fruList").appendChild(fruitOne)
